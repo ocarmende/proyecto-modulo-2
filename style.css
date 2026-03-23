@@ -64,6 +64,7 @@ nav{
             border-radius: 30px;
             border-width: 1px;
             border-color: black;
+            font-weight: bold;
         }
 
             #boton_2{
@@ -102,8 +103,68 @@ nav{
     height: 100vh;
     width: 42%;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background-image: linear-gradient(0deg, rgb(29, 57, 50) 0%, rgb(10, 105, 75) 100%);;
 }
+
+    #left_contents{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self:center;
+        font-size: 35px;
+        color: white;
+        letter-spacing: 2px;
+    }
+
+        #botones_green{
+            display: flex;
+            gap: 40px;
+            
+        }
+
+        .boton_green{
+            margin: 4px;
+            padding: 7px 10px 7px 10px;
+            border-radius: 30px;
+            border-width: 1px;
+            border-color: #ffffff;
+            font-weight: bold;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+            #boton_green_1{
+                color: white;
+                background-color: transparent;
+            }
+
+            #boton_green_1:hover{
+                color: green;
+                border-color: green;
+            }
+
+        #imagen_left{
+            width: 35vh;
+            position: fixed;
+            bottom: 0vh;
+            right: 58vw;
+        }    
+
+
+        #texto_left_green::after{
+            content: "";
+            background-image: url(htps://rewards.starbucks.mx/_next/static/media/bg-section-left-hand.0d6943f4dd00e30428d035564a73c510.png);
+            width: 30%;
+            height: 30%;
+            position: absolute;
+            background-position: 100% 100%;
+            z-index: 10000;
+        }
+
 
 
 .right_white{
