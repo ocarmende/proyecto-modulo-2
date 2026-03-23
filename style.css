@@ -369,6 +369,10 @@ nav{
     #octavo_container{
         display: flex;
         font-size: 20px;
+        box-shadow: 0 -4px 4px -4px #ccc;
+        padding-left: 10vw;
+
+
     }
 
         .columnas_footer{
@@ -405,3 +409,63 @@ nav{
             color: #ccc;
             padding-bottom: 15px;
         }
+
+
+#main_menu{
+    font-size: 19px;
+    font-weight: 530;
+
+    margin: 0px 10vw 30px 10vw;
+}
+
+    .titulos_menu{
+        border-bottom-color:rgb(175, 175, 175) ;
+        border-bottom-width:1px ;
+        border-bottom-style:solid ;
+        border-top-color:rgb(175, 175, 175) ;
+        border-top-width:1px ;
+        border-top-style:solid ;
+
+        padding: 20px 0 20px 0;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .grid_container_menu{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1em;
+
+        justify-items: center;
+    }
+
+    .link_wrapper, .link_wrapper:visited, .link_wrapper:focus, .link_wrapper:active, .link_wrapper:hover{
+        text-align: center;
+        font-size: 19px;
+        font-weight: 530;
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+    .grid_item_menu{
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .grid_item_image{
+        height: 150px ;
+        padding: 0px;
+        background-color: rgb(30, 57, 50);
+        border-radius: 100%;
+        border-width: 10px;
+        border-color: rgb(30, 57, 50);
+        border-style: solid;
+    }
+
+        .grid_item_image:hover, .grid_item_menu:hover{
+            border-color: rgb(241, 240, 235)
+        }
+
+a{text-decoration: none;}
